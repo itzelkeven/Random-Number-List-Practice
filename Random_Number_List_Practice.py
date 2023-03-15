@@ -33,3 +33,11 @@ for i in range(10):
         if bruh[i+1]+1 == bruh[i+2]:
             print("The list contains ", bruh[i], bruh[i+1], bruh[i+2])
 
+
+
+bruh2 = []
+for i in range(12):
+    bruh2.append(bruh[11-i])
+
+print("Orginial list: ", bruh)
+print("Reversed list: ", bruh2)
